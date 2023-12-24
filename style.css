@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /* У body я використав власні налаштування, оскільки мені так більше подобається візуальний вигляд сайту. */
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 350px;
+  height: 250px;
+  padding: 15px 10px 20px 10px;
+  margin-bottom: 30px;
+  border: dashed 2px burlywood;
+  background-color: darkgreen;
+
+  color: burlywood;
+}
